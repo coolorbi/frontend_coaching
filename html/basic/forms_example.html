@@ -4,27 +4,41 @@
     <title>Forms Type</title>
   </head>
   <body>
+    <!-- html form is start with the form tag -->
     <form>
+      <!-- label is to show the "text" for the input, for is used to make a connection between label and form element using the for and id -->
       <label for="message">Message</label>
-      <textarea id="message"></textarea>
+      <!-- textarea is take a multiline input, rows: defines the initial numbers of rows to load when form loads  -->
+      <textarea id="message" rows="3"></textarea>
+
       <label for="gender">Gender</label>
+      <!-- select is dropdown selection -->
       <select id="gender">
+        <!-- options define the available option to select, value("m") is the value which will be passed when form will be submitted. while "Male" will be shown to the user -->
         <option value="m">Male</option>
         <option value="f">Female</option>
       </select>
+
       <label for="age">what is your age?</label>
+      <!-- input can have multiple types for example "text", "email", "age" here we are using the type="number" to get the number input. -->
       <input id="age" type="number" />
-      <!-- radio -->
+
+      <!-- radio, is used to select only one choice out of multiple available choices. we define radio using input with type="radio". "name" is used to connect multiple input with each other. so when we select other will be deselect. -->
       <label for="country">Do you live in india?</label>
       <input name="random" type="radio" id="country" value="y" />Yes
       <input name="random" type="radio" value="n" />No
-      <!-- checkbox -->
+
+      <!-- checkbox, are usually for multiple select choices. we define input with type="checkbox". similarly whith radio, name is passed to connect multiple checkboxes with each other. -->
       <label for="like">do you like?</label>
       <input id="like" name="likessss" type="checkbox" value="music" />Music
       <input name="likessss" type="checkbox" value="movie" />Movie
       <input name="likessss" type="checkbox" value="trek" />Trekking
       <label for="date">Date of birth</label>
+
+      <!-- date, input with type="date" is used to get the date as a input from user. -->
       <input type="date" id="date" />
+
+      <!-- button with type="submit" is used to submit the form if you don't use the type="submit". then clicking the button will not automatically submit the form. -->
       <button type="submit">Submit the form</button>
     </form>
   </body>
