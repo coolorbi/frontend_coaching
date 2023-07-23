@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>premier service</title>
+
+    </head>
+    <body>
+        <h1>our plans</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>plan</th>
+                <th>validity</th>
+                <th>price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>yearly</td>
+                <td>366 days</td>
+                <td>1499 Rs</td>
+            </tr>
+            <tr>
+                <td>monthly</td>
+                <td>30 days</td>
+                <td>300 Rs</td>
+            </tr>
+            <tr>
+                <td>weekly</td>
+                <td>7 Days</td>
+                <td>100 Rs</td>
+            </tr>
+        </tbody>
+    </table>
+    <form>
+      <h1>Register for our premium service</h1>
+       <placeholder for="Name" >Enter your name</placeholder><br>
+       <input id="Name"/><br><br>
+       <placeholder for="email">enter your email</placeholder><br>
+       <input id="email"/><br><br>
+       <placeholder for="pwd">enter your Password:</placeholder><br>
+       <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+       <placeholder for="plans">which plan would you like to choose</placeholder><br>
+       <select id="plans"><br>
+        <option value="Y">yearly</option>
+        <option value="M">monthly</option>
+        <option value="W">weekly</option>
+    </select><br><br>
+        <placeholder for="other services">Are you intrested in other services</placeholder><br>
+        <input name="random" type="radio" value="yes"/>yes
+        <input name="random" type="radio" value="No"/>no<br><br>
+       <placeholder for="service">which service do you like</placeholder><br>
+       <input id="service" name="services" type="checkbox" value="music"/>music
+       <input name="services" type="checkbox" value="movie"/>movie
+       <input name="services" type="checkbox" value="delivery"/>delivery<br><br>
+       <placeholder for="date">select the date of birth from which you want to start the service</placeholder><br><br>
+       <input type="date" id="date"/><br><br>
+       <button type="submit">submit</button>
+    </form> 
+    </body>
+</html>
