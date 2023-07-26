@@ -1,0 +1,20 @@
+h2 {
+  /* color name */
+  color: blue;
+}
+/* rgb:red green blue */
+h3 {
+  color: #3a506b;
+}
+
+/* rgba: red gree blue alpha */
+/* transparency moves from 0 to 1 */
+/* 0: full transparent, 1:opaque */
+h4 {
+  color: rgba(0, 0, 255, 0.7);
+}
+
+/* hex: hex colors */
+#hex {
+  color: #5bc0be;
+}
