@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>our plans</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Plan</th>
+          <th>Validity</th>
+          <th>Price</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Yearly</td>
+                <td>365 days</td>
+                <td>1499 Rs.</td>
+            </tr>
+            <tr>
+                <td>Monthly</td>
+                <td>30 days</td>
+                <td>300 Rs.</td>
+            </tr>
+            <tr>
+                <td>Weekly</td>
+                <td>7 days</td>
+                <td>100 Rs.</td>
+            </tr>
+        </tbody>
+      </thead>
+    </table>
+    <br>
+    <h2>Register for our premium service.</h2>
+    <form>
+      <input type="text" placeholder="Enter your name" /><br /><br />
+      <input type="email" placeholder="Enter your email" /><br /><br />
+      <input type="password" placeholder="enter your password" /><br /><br />
+      <label for="plan">Which plan would you like to take?</label><br />
+      <select>
+        <option value="weekly">Weekly</option>
+        <option value="monthly">Monthly</option>
+        <option value="yearly">Yearly</option></select
+      ><br /><br />
+      <label>Are you interseted in our other services?</label><br />
+      <input type="radio" name="service" value="yes" />yes
+      <input type="radio" name="service" value="no" />no <br /><br />
+      <label for="">which service would you like?(select all that apply)</label
+      ><br />
+      <input type="checkbox" name="service" value="music" />music
+      <input type="checkbox" name="service" />movie
+      <input type="checkbox" value="delivery" />delivery <br /><br />
+
+      <label for=""
+        >select the date of birth from which you want to start the
+        service</label
+      ><br /><br />
+      <input type="date" name="" id="" /><br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
