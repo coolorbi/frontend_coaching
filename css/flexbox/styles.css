@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* flex box will apply on the parent */
+#parent {
+  background-color: red;
+  /* this property is for assinging flex to the parent */
+  display: flex;
+  /* by default, the flex direction is row, row is for horizontal alignment, column is for veritcal alignment */
+  flex-direction: row;
+  /* justify content is for placing is element horizontally with some properties, when flex direction is row */
+
+  /* justify-content: space-between;
+  justify-content: space-around;  */
+  justify-content: center;
+  /* justify-content: start; */
+  /* justify-content: end; */
+  /* gap property: create the specified gap between elements */
+  gap: 10px;
+
+  /* align items: this property aligns the items vertically, if flex direction is row */
+  align-items: center;
+  align-items: end;
+  align-items: flex-start;
+  align-items: center;
+}
+
+#first-child {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+
+#second-child {
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+}
+
+#third-child {
+  background-color: cyan;
+  width: 150px;
+  height: 150px;
+}
+
+#fourth-child {
+  background-color: beige;
+  width: 120px;
+  height: 120px;
+}
+
+#parent-column {
+  background-color: green;
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* justify-content: end; */
+  height: 1000px;
+  align-items: center;
+  gap: 10px;
+}
+
+#first-child-column {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+#second-child-column {
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+}
+
+#third-child-column {
+  background-color: cyan;
+  width: 150px;
+  height: 150px;
+}
+
+#fourth-child-column {
+  background-color: beige;
+  width: 120px;
+  height: 120px;
+}

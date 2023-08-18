@@ -1,0 +1,35 @@
+/* tag selector */
+
+body{
+    
+    /* background-color: red; */
+    /* shorthand property   */
+    /* background: white; */
+}
+h1{
+    color:green;
+}
+#box-1{
+    width: 600px;
+    height: 300px;
+    border: solid red 5px;
+    /* background-color: green; */
+    /* background ulr */
+    /* background-image: url("./background.jpg");
+     */
+     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png");
+    /* background size */
+    /* size contain cover */
+    background-size: cover;
+    /* background-size: contain; */
+    /* if image will repeat or not */
+    /* repeat */
+    /* background-repeat: repeat; */
+    background-repeat: no-repeat;
+    /* backround position */
+    background-position: center;
+    /* top center bottom left right etc. */
+    /* background-position: top; */
+    /* background: url('./background.jpg')  no-repeat center;
+    background-size: cover; */
+}

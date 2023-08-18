@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+#para-1 {
+  text-align: center;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#para-2 {
+  text-align: right;
+}

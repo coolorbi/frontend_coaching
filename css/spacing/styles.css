@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+#para-1 {
+  margin-top: 40px;
+}
+
+#para-2 {
+  margin-top: 100px;
+}
+
+#img-1 {
+  width: 100px;
+  border: 10px solid green;
+  /* padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px; */
+  padding: 10px;
+  margin-right: 40px;
+}
+#img-2 {
+  width: 100px;
+  padding: 10px;
+  border: 10px solid green;
+}
+
+button {
+  padding: 10px;
+}
+
+/* margin outside the container : top, bottom, left and right  */
+/* padding is inside the container: top, bottom,left and right */
+/* box model: content box, border box */
+/* content box takes till content  */
+/* border box take till border */

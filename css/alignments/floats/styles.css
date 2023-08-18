@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  border-bottom: 2px solid black;
+  padding: 10px;
+  text-align: right;
+}
+
+.nav-links {
+  color: green;
+  font-size: 18px;
+  /* to tranform the text into difference case: lowercase, uppercase, capitalize */
+  text-transform: uppercase;
+  /* for hand kind of sign */
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+#img-div {
+  width: 38%;
+  float: left;
+  margin-right: 10px;
+}
+
+#info-div {
+  width: 60%;
+  float: right;
+  /* background-color: red; */
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.clr {
+  clear: both;
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#adopt {
+  text-align: center;
+  background-color: cyan;
+  margin-top: 20px;
+  padding: 50px;
+}
+
+#adopt-link {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  background: #457d61;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 36px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button {
+  background: none;
+  border: none;
+  background: #457d61;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 36px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
